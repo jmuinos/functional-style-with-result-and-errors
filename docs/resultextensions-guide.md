@@ -1,7 +1,7 @@
 # Guia de implementación de ResultExtensions
 ========================================================================
 
-Las extensiones funcionales ([`ResultExtensions`](../../Core/Primitives/Results/ResultExtensions.cs)) enriquecen el patrón `Result` con operadores declarativos, permitiendo un manejo claro, seguro y mantenible de flujos condicionales, efectos secundarios, validaciones y gestión de excepciones.
+Las extensiones funcionales ([`ResultExtensions`](../Core/Primitives/Results/ResultExtensions.cs)) enriquecen el patrón `Result` con operadores declarativos, permitiendo un manejo claro, seguro y mantenible de flujos condicionales, efectos secundarios, validaciones y gestión de excepciones.
 
 ## Tabla de Contenidos
 
@@ -23,7 +23,7 @@ Las extensiones funcionales ([`ResultExtensions`](../../Core/Primitives/Results/
 
 Las extensiones funcionales sobre el patrón `Result` proporcionan métodos que facilitan encadenar, transformar, validar y ejecutar efectos secundarios sobre los resultados, permitiendo un estilo de programación más declarativo, limpio y seguro.
 
-Estas extensiones están definidas en la clase estática [`ResultExtensions`](../../Core/Primitives/Results/ResultExtensions.cs) e incluyen operadores comunes en la programación funcional, como:
+Estas extensiones están definidas en la clase estática [`ResultExtensions`](../Core/Primitives/Results/ResultExtensions.cs) e incluyen operadores comunes en la programación funcional, como:
 
 ### Por que usarlas
 
@@ -35,7 +35,7 @@ Estas extensiones están definidas en la clase estática [`ResultExtensions`](..
 
 ## Descripcion detallada de cada extension
 
-A continuación se describen los métodos principales de [`ResultExtensions`](../../Core/Primitives/Results/ResultExtensions.cs) con ejemplos prácticos y escenarios típicos de uso. Todas las extensiones cuentan con versiones síncronas y asíncronas.
+A continuación se describen los métodos principales de [`ResultExtensions`](../Core/Primitives/Results/ResultExtensions.cs) con ejemplos prácticos y escenarios típicos de uso. Todas las extensiones cuentan con versiones síncronas y asíncronas.
 
 ### Bind: Encadenar operaciones que devuelven Result
 
@@ -262,9 +262,9 @@ y necesitas evitar que rompan el flujo.
 ---
 
 > **Documentación relacionada:**
-> - [Guía de implementación de Errores y ValueObject](./error-valueobject-guide.md)
-> - [Guia de Result](./result-guide.md)
-> - [Guia de Uso Combinado](./uso-combinado-y-funcional.md)
-> - [Guia de FAQs](./faqs.md)
+> - [Guía de implementación de Errores y ValueObject](error-valueobject-guide.md)
+> - [Guia de Result](result-guide.md)
+> - [Guia de Uso Combinado](uso-combinado-y-funcional.md)
+> - [Guia de FAQs](faqs.md)
 
-[⬅️ Anterior: Guia de Result](./result-guide.md) | [Siguiente: Guia de Uso Combinado ➡️](./uso-combinado-y-funcional.md)
+[⬅️ Anterior: Guia de Result](result-guide.md) | [Siguiente: Guia de Uso Combinado ➡️](uso-combinado-y-funcional.md)

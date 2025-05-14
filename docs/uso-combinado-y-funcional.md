@@ -227,12 +227,12 @@ En este ejemplo:
 ---
 
 > **Documentación relacionada:**
-> - [Guía de implementación de Errores y ValueObject](./error-valueobject-guide.md)
-> - [Guia de Result](./result-guide.md)
-> - [Guia de ResultExtensions](./resultextensions-guide.md)
-> - [Guia de FAQs](./faqs.md)
+> - [Guía de implementación de Errores y ValueObject](error-valueobject-guide.md)
+> - [Guia de Result](result-guide.md)
+> - [Guia de ResultExtensions](resultextensions-guide.md)
+> - [Guia de FAQs](faqs.md)
 
-[⬅️ Anterior: Guia de ResultExtensions](./resultextensions-guide.md) | [Volver al inicio: Guia de Errores y ValueObject ⬆️](./error-valueobject-guide.md)
+[⬅️ Anterior: Guia de ResultExtensions](resultextensions-guide.md) | [Volver al inicio: Guia de Errores y ValueObject ⬆️](error-valueobject-guide.md)
 
 
 

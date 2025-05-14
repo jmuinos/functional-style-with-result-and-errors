@@ -108,13 +108,13 @@ return Result.Success(input)
     .Ensure(v => v.Length > 0, ValidationError.EmptyInput)
     .Ensure(v => v.Length <= 100, ValidationError.TooLong);
 ```
-> 🔄 Las extensiones de Result como `Ensure` pueden consultarse en la [Guía de ResultExtensions](./resultextensions-guide.md)
+> 🔄 Las extensiones de Result como `Ensure` pueden consultarse en la [Guía de ResultExtensions](resultextensions-guide.md)
 
 ---
 > **Documentación relacionada:**
-> - [Guía de implementación de Errores y ValueObject](./error-valueobject-guide.md)
-> - [Guia de Result](./result-guide.md)
-> - [Guia de ResultExtensions](./resultextensions-guide.md)
-> - [Guia de Uso Combinado](./uso-combinado-y-funcional.md)
+> - [Guía de implementación de Errores y ValueObject](error-valueobject-guide.md)
+> - [Guia de Result](result-guide.md)
+> - [Guia de ResultExtensions](resultextensions-guide.md)
+> - [Guia de Uso Combinado](uso-combinado-y-funcional.md)
 
-[Volver al inicio: Guia de Errores y ValueObject ⬆️](./error-valueobject-guide.md) 
+[Volver al inicio: Guia de Errores y ValueObject ⬆️](error-valueobject-guide.md) 

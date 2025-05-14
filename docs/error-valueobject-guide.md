@@ -29,7 +29,7 @@ Organizar y modelar errores de dominio de forma consistente es clave para manten
 ### 1. `ValueObject`: Igualdad por valor
 
 #### Definición
-La clase base [`ValueObject`](../../src/Common/ValueObject.cs) proporciona una implementación genérica para objetos de valor con igualdad por valor.
+La clase base [`ValueObject`](../Core/Primitives/ValueObject.cs) proporciona una implementación genérica para objetos de valor con igualdad por valor.
 
 #### ¿Por qué usarlo?
 
@@ -41,7 +41,7 @@ La clase base [`ValueObject`](../../src/Common/ValueObject.cs) proporciona una i
 ### 2. `Error`: Value object para errores
 
 #### Definición
-La clase [`Error`](../../src/Common/Error.cs) implementa [`ValueObject<Error>`](../../src/Common/ValueObject.cs) para representar errores de dominio de forma inmutable y comparable.
+La clase [`Error`](../Core/Primitives/Error.cs) implementa [`ValueObject<Error>`](../Core/Primitives/ValueObject.cs) para representar errores de dominio de forma inmutable y comparable.
 
 #### Ventajas
 
@@ -77,7 +77,7 @@ if (noError == Error.None)
 ### 3. `ClientErrors`: Centralizacion de Codigos
 
 #### Definicion
-La clase [`ClientErrors`](../../src/Common/ClientErrors.cs) centraliza los códigos de error reutilizables y organizados por contexto.
+La clase [`ClientErrors`](../Core/Errors/ClientErrors.cs) centraliza los códigos de error reutilizables y organizados por contexto.
 
 #### Convención de nombres
 
@@ -192,9 +192,9 @@ public async Task<Result<Order>> ProcessOrder(OrderRequest request)
 ---
 
 > **Documentación relacionada:**
-> - [Guia de Result](./result-guide.md)
-> - [Guia de ResultExtensions](./resultextensions-guide.md)
-> - [Guia de Uso Combinado](./uso-combinado-y-funcional.md)
-> - [Guia de FAQs](./faqs.md)
+> - [Guia de Result](result-guide.md)
+> - [Guia de ResultExtensions](resultextensions-guide.md)
+> - [Guia de Uso Combinado](uso-combinado-y-funcional.md)
+> - [Guia de FAQs](faqs.md)
 
-[Siguiente: Guia de Result ➡️](./result-guide.md)
+[Siguiente: Guia de Result ➡️](result-guide.md)

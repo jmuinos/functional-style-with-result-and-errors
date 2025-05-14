@@ -22,7 +22,7 @@ Modelar el resultado de operaciones de forma segura y expresiva es clave para co
 
 #### Definicion
 
-Las clases [`Result`](../../Core/Primitives/Results/Result.cs) y [`Result<T>`](../../Core/Primitives/Results/ResultT.cs) implementan el patrón de contenedor de éxito o fallo para operaciones, evitando el uso de excepciones para el control de flujo.
+Las clases [`Result`](../Core/Primitives/Results/Result.cs) y [`Result<T>`](../Core/Primitives/Results/ResultT.cs) implementan el patrón de contenedor de éxito o fallo para operaciones, evitando el uso de excepciones para el control de flujo.
 
 #### ¿Por qué usarlos?
 
@@ -33,7 +33,7 @@ Las clases [`Result`](../../Core/Primitives/Results/Result.cs) y [`Result<T>`](.
   _Solo accedes al valor si `IsSuccess == true`. Si no, el acceso lanza excepción._
 
 * **Facilita composición funcional**
-  _Es el punto de partida para aplicar operadores como `Map`, `Bind`, `Ensure` y más, que trataremos en profundidad en la  [Guía de ResultExtensions](./resultextensions.md)._
+  _Es el punto de partida para aplicar operadores como `Map`, `Bind`, `Ensure` y más, que trataremos en profundidad en la  [Guía de ResultExtensions](resultextensions-guide.md)._
 
 * **Control total del flujo**
   _Cada llamada devuelve un `Result` y puede evaluarse con claridad, permitiendo decisiones seguras en cada capa._
@@ -58,8 +58,8 @@ return Result.Failure(new Error("Login.Failed", "Contraseña incorrecta"));
 > 
 > Este matiz se explora con mayor profundidad en las siguientes guías:
 > 
-> * [Guía de ResultExtensions](./resultextensions.md)
-> * [Guía de implementación de _Errores Custom Centralizados y Estilo Funcional_](./uso-combinado-y-funcional.md)
+> * [Guía de ResultExtensions](resultextensions-guide.md)
+> * [Guía de implementación de _Errores Custom Centralizados y Estilo Funcional_](uso-combinado-y-funcional.md)
 
 ### 2. Ventajas frente a excepciones tradicionales
 
@@ -148,9 +148,9 @@ await Validar()
 ---
 
 > **Documentación relacionada:**
-> - [Guía de implementación de Errores y ValueObject](./error-valueobject-guide.md)
-> - [Guia de ResultExtensions](./resultextensions-guide.md)
-> - [Guia de Uso Combinado](./uso-combinado-y-funcional.md)
-> - [Guia de FAQs](./faqs.md)
+> - [Guía de implementación de Errores y ValueObject](error-valueobject-guide.md)
+> - [Guia de ResultExtensions](resultextensions-guide.md)
+> - [Guia de Uso Combinado](uso-combinado-y-funcional.md)
+> - [Guia de FAQs](faqs.md)
 
-[⬅️ Anterior: Guia de Errores y ValueObject](./error-valueobject-guide.md) | [Siguiente: Guia de ResultExtensions ➡️](./resultextensions-guide.md)
+[⬅️ Anterior: Guia de Errores y ValueObject](error-valueobject-guide.md) | [Siguiente: Guia de ResultExtensions ➡️](resultextensions-guide.md)
