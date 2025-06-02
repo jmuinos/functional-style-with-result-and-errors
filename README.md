@@ -1,4 +1,4 @@
-# result-pattern
+# functional-result-pattern
 
 Este repositorio contiene una colección de patrones, utilidades y guías para implementar un manejo funcional y seguro de errores en aplicaciones .NET/C#, utilizando Value Objects, el patrón Result y extensiones funcionales. El objetivo es facilitar la construcción de código más limpio, predecible, testeable y mantenible, evitando el uso excesivo de excepciones y promoviendo la centralización de errores de dominio.
 
